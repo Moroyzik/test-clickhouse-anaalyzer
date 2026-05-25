@@ -1,0 +1,26 @@
+# Rust
+clickhouse-analyzer/target/
+
+# Node
+node_modules/
+demo-app/node_modules/
+
+# Build output (keep demo-app/dist for easy deployment)
+# demo-app/dist/  — kept for GitHub Pages
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+
+# Logs
+*.log

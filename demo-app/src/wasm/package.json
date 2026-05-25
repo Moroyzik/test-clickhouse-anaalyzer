@@ -1,0 +1,15 @@
+{
+  "name": "clickhouse-analyzer",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "clickhouse_analyzer_bg.wasm",
+    "clickhouse_analyzer.js",
+    "clickhouse_analyzer.d.ts"
+  ],
+  "main": "clickhouse_analyzer.js",
+  "types": "clickhouse_analyzer.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

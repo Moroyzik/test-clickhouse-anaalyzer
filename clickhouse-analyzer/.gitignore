@@ -1,0 +1,22 @@
+# Rust
+target/
+
+# IDE
+.idea/
+
+# Node / TypeScript build output
+node_modules/
+dist/
+dist-test/
+out/
+pkg/
+
+# VS Code extension
+.vscode-test/
+
+# Project files
+CLAUDE.md
+.claude/worktrees/
+*.log
+*.sql
+packages/vscode/*.vsix
